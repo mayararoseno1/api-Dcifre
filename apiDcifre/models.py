@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
-from database import Base
+from apiDcifre import database
+from apiDcifre import Base
 
 class Empresa(Base):
     __tablename__ = "empresas"

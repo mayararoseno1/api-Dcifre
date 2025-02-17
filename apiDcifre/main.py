@@ -1,8 +1,8 @@
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
-from . import models
-from . import crud 
-from . import schemas
+from apiDcifre import models
+from ... import crud 
+from ... import schemas
 from . database import engine, SessionLocal # type: ignore
 
 # Criar as tabelas no banco de dados
